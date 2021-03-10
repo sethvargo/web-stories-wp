@@ -193,6 +193,7 @@ function MediaPane(props) {
     } catch (e) {
       showSnackbar({
         message: e.message,
+        dismissable: true,
       });
     }
   };
